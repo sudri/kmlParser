@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9406AAB01994891900FC745A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9406AAAF1994891900FC745A /* Foundation.framework */; };
+		9406AAB21994891900FC745A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9406AAB11994891900FC745A /* CoreGraphics.framework */; };
+		9406AAB41994891900FC745A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9406AAB31994891900FC745A /* UIKit.framework */; };
+		9406AABA1994891900FC745A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9406AAB81994891900FC745A /* InfoPlist.strings */; };
+		9406AABC1994891900FC745A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406AABB1994891900FC745A /* main.m */; };
+		9406AAC01994891900FC745A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406AABF1994891900FC745A /* AppDelegate.m */; };
+		9406AAC31994891900FC745A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9406AAC11994891900FC745A /* Main.storyboard */; };
+		9406AAC61994891900FC745A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406AAC51994891900FC745A /* ViewController.m */; };
+		9406AAC81994891900FC745A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9406AAC71994891900FC745A /* Images.xcassets */; };
+		9406AACF1994891900FC745A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9406AACE1994891900FC745A /* XCTest.framework */; };
+		9406AAD01994891900FC745A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9406AAAF1994891900FC745A /* Foundation.framework */; };
+		9406AAD11994891900FC745A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9406AAB31994891900FC745A /* UIKit.framework */; };
+		9406AAD91994891900FC745A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9406AAD71994891900FC745A /* InfoPlist.strings */; };
+		9406AADB1994891900FC745A /* kmlParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406AADA1994891900FC745A /* kmlParserTests.m */; };
+		9406AAE51994897D00FC745A /* borders.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9406AAE41994897D00FC745A /* borders.xml */; };
+		9406AAEA1994950500FC745A /* XMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406AAE91994950500FC745A /* XMLElement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9406AAD21994891900FC745A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9406AAA41994891900FC745A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9406AAAB1994891900FC745A;
+			remoteInfo = kmlParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9406AAAC1994891900FC745A /* kmlParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kmlParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9406AAAF1994891900FC745A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9406AAB11994891900FC745A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9406AAB31994891900FC745A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9406AAB71994891900FC745A /* kmlParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kmlParser-Info.plist"; sourceTree = "<group>"; };
+		9406AAB91994891900FC745A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9406AABB1994891900FC745A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9406AABD1994891900FC745A /* kmlParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kmlParser-Prefix.pch"; sourceTree = "<group>"; };
+		9406AABE1994891900FC745A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9406AABF1994891900FC745A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9406AAC21994891900FC745A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9406AAC41994891900FC745A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9406AAC51994891900FC745A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9406AAC71994891900FC745A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9406AACD1994891900FC745A /* kmlParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kmlParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9406AACE1994891900FC745A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9406AAD61994891900FC745A /* kmlParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kmlParserTests-Info.plist"; sourceTree = "<group>"; };
+		9406AAD81994891900FC745A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9406AADA1994891900FC745A /* kmlParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kmlParserTests.m; sourceTree = "<group>"; };
+		9406AAE41994897D00FC745A /* borders.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = borders.xml; sourceTree = "<group>"; };
+		9406AAE81994950500FC745A /* XMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLElement.h; path = Model/XMLElement.h; sourceTree = "<group>"; };
+		9406AAE91994950500FC745A /* XMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLElement.m; path = Model/XMLElement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9406AAA91994891900FC745A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9406AAB21994891900FC745A /* CoreGraphics.framework in Frameworks */,
+				9406AAB41994891900FC745A /* UIKit.framework in Frameworks */,
+				9406AAB01994891900FC745A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9406AACA1994891900FC745A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9406AACF1994891900FC745A /* XCTest.framework in Frameworks */,
+				9406AAD11994891900FC745A /* UIKit.framework in Frameworks */,
+				9406AAD01994891900FC745A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9406AAA31994891900FC745A = {
+			isa = PBXGroup;
+			children = (
+				9406AAE41994897D00FC745A /* borders.xml */,
+				9406AAB51994891900FC745A /* kmlParser */,
+				9406AAD41994891900FC745A /* kmlParserTests */,
+				9406AAAE1994891900FC745A /* Frameworks */,
+				9406AAAD1994891900FC745A /* Products */,
+				9406AAB61994891900FC745A /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9406AAAD1994891900FC745A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9406AAAC1994891900FC745A /* kmlParser.app */,
+				9406AACD1994891900FC745A /* kmlParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9406AAAE1994891900FC745A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9406AAAF1994891900FC745A /* Foundation.framework */,
+				9406AAB11994891900FC745A /* CoreGraphics.framework */,
+				9406AAB31994891900FC745A /* UIKit.framework */,
+				9406AACE1994891900FC745A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9406AAB51994891900FC745A /* kmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				9406AAEB1994951000FC745A /* Model */,
+				9406AABE1994891900FC745A /* AppDelegate.h */,
+				9406AABF1994891900FC745A /* AppDelegate.m */,
+				9406AAC11994891900FC745A /* Main.storyboard */,
+				9406AAC41994891900FC745A /* ViewController.h */,
+				9406AAC51994891900FC745A /* ViewController.m */,
+			);
+			path = kmlParser;
+			sourceTree = "<group>";
+		};
+		9406AAB61994891900FC745A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9406AAC71994891900FC745A /* Images.xcassets */,
+				9406AAB71994891900FC745A /* kmlParser-Info.plist */,
+				9406AAB81994891900FC745A /* InfoPlist.strings */,
+				9406AABB1994891900FC745A /* main.m */,
+				9406AABD1994891900FC745A /* kmlParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = kmlParser;
+			sourceTree = "<group>";
+		};
+		9406AAD41994891900FC745A /* kmlParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				9406AADA1994891900FC745A /* kmlParserTests.m */,
+				9406AAD51994891900FC745A /* Supporting Files */,
+			);
+			path = kmlParserTests;
+			sourceTree = "<group>";
+		};
+		9406AAD51994891900FC745A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9406AAD61994891900FC745A /* kmlParserTests-Info.plist */,
+				9406AAD71994891900FC745A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9406AAEB1994951000FC745A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9406AAE81994950500FC745A /* XMLElement.h */,
+				9406AAE91994950500FC745A /* XMLElement.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9406AAAB1994891900FC745A /* kmlParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9406AADE1994891900FC745A /* Build configuration list for PBXNativeTarget "kmlParser" */;
+			buildPhases = (
+				9406AAA81994891900FC745A /* Sources */,
+				9406AAA91994891900FC745A /* Frameworks */,
+				9406AAAA1994891900FC745A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kmlParser;
+			productName = kmlParser;
+			productReference = 9406AAAC1994891900FC745A /* kmlParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9406AACC1994891900FC745A /* kmlParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9406AAE11994891900FC745A /* Build configuration list for PBXNativeTarget "kmlParserTests" */;
+			buildPhases = (
+				9406AAC91994891900FC745A /* Sources */,
+				9406AACA1994891900FC745A /* Frameworks */,
+				9406AACB1994891900FC745A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9406AAD31994891900FC745A /* PBXTargetDependency */,
+			);
+			name = kmlParserTests;
+			productName = kmlParserTests;
+			productReference = 9406AACD1994891900FC745A /* kmlParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9406AAA41994891900FC745A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.EduardPyatnitsyn;
+				TargetAttributes = {
+					9406AACC1994891900FC745A = {
+						TestTargetID = 9406AAAB1994891900FC745A;
+					};
+				};
+			};
+			buildConfigurationList = 9406AAA71994891900FC745A /* Build configuration list for PBXProject "kmlParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9406AAA31994891900FC745A;
+			productRefGroup = 9406AAAD1994891900FC745A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9406AAAB1994891900FC745A /* kmlParser */,
+				9406AACC1994891900FC745A /* kmlParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9406AAAA1994891900FC745A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9406AAC81994891900FC745A /* Images.xcassets in Resources */,
+				9406AABA1994891900FC745A /* InfoPlist.strings in Resources */,
+				9406AAC31994891900FC745A /* Main.storyboard in Resources */,
+				9406AAE51994897D00FC745A /* borders.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9406AACB1994891900FC745A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9406AAD91994891900FC745A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9406AAA81994891900FC745A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9406AAC61994891900FC745A /* ViewController.m in Sources */,
+				9406AAC01994891900FC745A /* AppDelegate.m in Sources */,
+				9406AAEA1994950500FC745A /* XMLElement.m in Sources */,
+				9406AABC1994891900FC745A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9406AAC91994891900FC745A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9406AADB1994891900FC745A /* kmlParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9406AAD31994891900FC745A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9406AAAB1994891900FC745A /* kmlParser */;
+			targetProxy = 9406AAD21994891900FC745A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9406AAB81994891900FC745A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9406AAB91994891900FC745A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9406AAC11994891900FC745A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9406AAC21994891900FC745A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9406AAD71994891900FC745A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9406AAD81994891900FC745A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9406AADC1994891900FC745A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9406AADD1994891900FC745A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9406AADF1994891900FC745A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kmlParser/kmlParser-Prefix.pch";
+				INFOPLIST_FILE = "kmlParser/kmlParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9406AAE01994891900FC745A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kmlParser/kmlParser-Prefix.pch";
+				INFOPLIST_FILE = "kmlParser/kmlParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9406AAE21994891900FC745A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kmlParser.app/kmlParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kmlParser/kmlParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kmlParserTests/kmlParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9406AAE31994891900FC745A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kmlParser.app/kmlParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kmlParser/kmlParser-Prefix.pch";
+				INFOPLIST_FILE = "kmlParserTests/kmlParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9406AAA71994891900FC745A /* Build configuration list for PBXProject "kmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9406AADC1994891900FC745A /* Debug */,
+				9406AADD1994891900FC745A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9406AADE1994891900FC745A /* Build configuration list for PBXNativeTarget "kmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9406AADF1994891900FC745A /* Debug */,
+				9406AAE01994891900FC745A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9406AAE11994891900FC745A /* Build configuration list for PBXNativeTarget "kmlParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9406AAE21994891900FC745A /* Debug */,
+				9406AAE31994891900FC745A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9406AAA41994891900FC745A /* Project object */;
+}
